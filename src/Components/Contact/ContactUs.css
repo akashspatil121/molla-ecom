@@ -1,0 +1,51 @@
+.contact_page {
+    background-image: linear-gradient( #000ff0, #22232d);    
+}
+
+.contactus_container {
+    padding: 1rem;
+    color: white;
+}
+
+.contactus_heading {
+    font-size: 1.8rem;
+}
+
+.contactus_paregraph {
+    padding-top: 0.6rem;
+}
+
+.contactus_heading {
+    font-weight: bolder;
+}
+@media only screen and (min-width: 767px) and (max-width: 1022px){
+    .contactus_heading {
+        font-size: 2.1rem;
+    }
+    .contactus_paregraph {
+        padding-top: 0.6rem;
+    }
+    .contactus_container {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+}
+@media only screen and (min-width: 1023px){
+    .contact_page {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .contactus_container {
+        padding: 1rem 0 0 2rem;
+    }
+    .contactus_heading {
+        font-size: 2.5rem;
+    }
+    .contactus_paregraph {
+        padding-top: 1rem;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .contactus_container {
+        padding: 1rem 0 0 4rem;
+    }
+}

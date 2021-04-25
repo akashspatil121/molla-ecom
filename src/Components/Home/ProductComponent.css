@@ -1,0 +1,29 @@
+.ProductComponent{
+    background-color:#fafafa;
+    padding-top: 0.5rem;
+}
+.ProductComponent__Title{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.ProductComponent__HeadTabs {
+    margin-right: 5.5rem;
+}
+
+@media (max-width: 670px) {
+
+    .ProductComponent__Title {
+        display: block;
+        margin-bottom: 0.5rem;
+        padding-left: 23.5%;
+    }
+
+    .ProductComponent__HeadTabs {
+        margin-right: 11%;
+        margin-left: 0rem;
+        padding: 0;
+    }
+
+}

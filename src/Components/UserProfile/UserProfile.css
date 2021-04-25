@@ -1,0 +1,62 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+
+}
+
+.profile_header {
+
+    display: flex;
+    align-items: center;
+    padding: 3.5rem 1rem;
+
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/04/Blue-simple-wallpaper-nackgrounds-download.jpg);
+    color: white;
+    padding-bottom: 3.5rem;
+
+}
+
+.profile_header_txt {
+    padding: 0.6rem;
+}
+
+
+.user_profile_header_container {
+    overflow: hidden;
+}
+
+.profile_side_panel {
+    margin: 1rem;
+}
+
+.profile_side_panel_option:hover {
+    background-color: #007aff;
+    
+    color: #fff;
+}
+
+.profile_seide_panel_heading {
+    background-color: #777;
+  
+    color: #fff;
+}
+
+.profile_information {
+    background-color: #777;
+
+}
+
+.user_profile_container {
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .profile_side_panel {
+
+        width: 23.5%;
+
+    }
+
+}

@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+    .footsection_one{
+        padding-left: 2rem;
+    }
+
+}
+.footsection_one{
+    padding-left: 2rem;
+    color:'blue'
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+.footer_copyright{
+    text-align: center;
+}

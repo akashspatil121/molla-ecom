@@ -1,0 +1,126 @@
+.termandpolicy_main {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    background-image: linear-gradient(120deg, rgb(201, 125, 125) 50%, rgb(61, 33, 33) 50%);  
+}
+
+.termandpolicy_container {
+    color: #000;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.termandpolicy_heading {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ff0000;
+    padding: 2rem 0 1rem 0;
+}
+
+.termandpolicy_paragraph {
+    padding: 1rem;
+}
+
+.termandpolicy_scrollbar {
+    max-height: 22rem;
+    width: 100%;
+    overflow: auto;
+}
+.terandpolicy_main_button {
+    margin: 1rem 1.8rem 1rem 1.8rem;
+}
+.termandpolicy_button1 {
+    border-radius: 0.4rem;
+    margin: 1rem;
+    /* margin: 2rem 2rem 1rem 2rem; */
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-color: #ff0000;
+    color: #ff0000;
+    font-weight: bold;
+}
+.termandpolicy_button1:hover {
+    border-color: #000;
+    color: #fff;
+    background-color: #ff0000;
+}
+
+.termandpolicy_button2 {
+    border-radius: 0.4rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-color: #008000;
+    color: #008000;
+    font-weight: bold;
+}
+.termandpolicy_button2:hover {
+    border-color: #000;
+    color: #fff;
+    background-color: #008000;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 0.7rem;
+	background-color: #000000;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #ff0000;
+}
+
+
+
+@media only screen and (min-width: 767px) {
+    .termandpolicy_main {
+        padding: 4.5rem;
+        background-image: linear-gradient(140deg, rgb(201, 125, 125) 50%, rgb(61, 33, 33) 50%);
+    }
+
+    .termandpolicy_heading {
+        font-size: 1.8rem;
+    }
+    
+    .termandpolicy_paragraph {
+        padding: 2rem;
+    }
+
+    .terandpolicy_main_button {
+        margin: 1rem 11.5rem 1rem 11.5rem;
+    }
+
+    .termandpolicy_button1 {
+        /* margin: 2rem 2rem 1rem 11rem; */
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .termandpolicy_main {
+        padding: 4rem 8rem 4rem 8rem;
+        background-image: linear-gradient(146deg, rgb(201, 125, 125) 50%, rgb(61, 33, 33) 50%);
+    }
+
+    .termandpolicy_heading {
+        font-size: 2rem;
+    }
+
+    .terandpolicy_main_button {
+        margin: 1rem 16rem 1rem 16rem;
+        /* margin: 2rem 2rem 1rem 19rem; */
+    }
+}
+@media only screen and (min-width: 1279px) {
+    .termandpolicy_main {
+        padding: 4rem 8rem 4rem 8rem;
+        background-image: linear-gradient(154deg, rgb(201, 125, 125) 50%, rgb(61, 33, 33) 50%);
+    }
+    
+    .termandpolicy_heading {
+        font-size: 2.4rem;
+    }
+    
+    .terandpolicy_main_button {
+        margin: 1rem 22.8rem 1rem 24rem;
+    }
+    .termandpolicy_button1, .termandpolicy_button2 {
+        padding: 0.5rem 2rem 0.5rem 2rem;
+    }
+}

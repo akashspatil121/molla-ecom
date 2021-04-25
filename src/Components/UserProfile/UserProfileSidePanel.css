@@ -1,0 +1,28 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.user_profile_container {
+    overflow: hidden;
+}
+
+.profile_side_panel {
+    margin: 1rem;
+}
+
+.profile_side_panel_option:hover {
+    background-color: #007aff;
+    
+    color: #fff;
+}
+
+.profile_seide_panel_heading {
+    background-color: #777;
+  
+    color: #fff;
+}
+

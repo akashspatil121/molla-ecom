@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.product_card_container{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.product_card_container:hover {
+   
+    border-radius: 2rem;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .box_shadow :hover {
+   
+} */
+
+.product_card_image_container {
+    position: relative;
+}
+
+.product_card_img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.product_status {
+    position: absolute;
+    top: 0.7rem;
+    left: 0.7rem;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem;
+    
+    background-color: #a6c76c;
+    color: #fff;
+}
+
+.product_card_side_icon_container {
+    position: absolute;
+    top: 0.7rem;
+    right: 0.7rem;
+    display: grid;
+    grid-template-columns: 100%;
+    display: none;
+
+    color: #b26c3b;
+}
+
+
+
+.product_card_side_icon_container div {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin-bottom: 0.3rem;
+
+    background-color: #fff;
+}
+
+.product_card_add_to_cart {
+    position: absolute;
+    bottom: 0rem;
+    font-size: 0.7rem;
+    justify-content: center;
+    font-weight: lighter;
+    width: 100%;
+    padding: 0.5rem 0rem 0.3rem 0rem;
+    display: none;
+
+    background-color: #b26c3b;
+    color: #fff;
+}
+
+ .product_card_add_to_cart h4 {
+     font-size: 1.2rem;
+ }
+
+.product_card_add_to_cart div {
+    padding-right: 0.5rem;
+}
+
+.product_card_preview {
+    display: flex;
+    justify-content: center;
+}
+
+.product_card_details h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.1rem;
+    line-height: 1.5rem;
+    margin-top: 0.3rem;
+}
+
+.product_card_preview div {
+    padding: 0.1rem;
+}
+
+
+.product_card_container h5 {
+    padding: 0rem 2rem;
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
+
+
+.product_card_container h6 {
+    font-size: 1.4rem;
+    color: #b26c3b;
+}
+
+
+
+.product_card_container {
+    padding-bottom: 0.7rem;
+}
+
+
+.product_card_container :hover .product_card_side_icon_container {
+
+    display: block;
+
+}
+
+.product_card_container :hover .product_card_add_to_cart {
+    
+    display: flex;
+
+}
+
+
+@media only screen and (min-width: 767px) {
+    .product_card_container {
+        width: 95%;
+    }
+}
