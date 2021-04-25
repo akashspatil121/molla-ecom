@@ -21,6 +21,7 @@ function App(props) {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/molla-ecom" component={Home} />
           <Route exact path="/product" component={Product} />
           <Route exact path="/cart" component={Cartpage} />
           <Route exact path="/category" component={Category} />
